@@ -4,6 +4,7 @@
  * _printf - A  function that produces output according to a format
  *@format: Format is a character string
  *@...: Strings to print
+ *
  *Return: The number of characters printed
  *(Excluding the null byte used to end output to strings)
  */
