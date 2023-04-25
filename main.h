@@ -2,6 +2,7 @@
 #define _PRINTF_H
 
 #include <stdarg.h>
+#include <float.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
