@@ -70,7 +70,7 @@ typedef struct specifier
 	int (*f)(va_list, params_t *);
 } specifier_t;
 
-/* _putchar.c module */
+/* _put.c module */
 
 int _puts(char *str);
 int _putchar(int c);
@@ -122,8 +122,9 @@ int print_number_left_shift(char *str, params_t *params);
 
 void init_params(params_t *params, va_list list);
 
-/* get_precision.c modoule */
+/* get_precision.c module */
 
+/* int get_precision(const char *format, int *i, va_list list); */
 char *get_precision(char *p, params_t *params, va_list list);
 
 /* _prinf.c module */
